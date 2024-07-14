@@ -1,0 +1,3 @@
+/*
+component for a single character
+*/
