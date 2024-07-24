@@ -2,8 +2,8 @@
 
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <NuxtRouteAnnouncer />Hi
+    <!-- <NuxtWelcome /> -->
   </div>
 </template>
 
