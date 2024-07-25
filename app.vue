@@ -1,10 +1,9 @@
 <!-- main frontend file -->
 
 <template>
-  <div>
-    <NuxtRouteAnnouncer />Hi
-    <!-- <NuxtWelcome /> -->
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <script setup lang="ts">
