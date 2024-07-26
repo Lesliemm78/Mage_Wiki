@@ -11,5 +11,6 @@
   text-align: center;
   border-radius: 25px;
   border: 2px solid black;
+  @import url("~/assest/style.css");
 }
 </style>
