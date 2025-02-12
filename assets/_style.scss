@@ -1,2 +1,56 @@
 $primary-color1: #d8b5f1;
 $primary-color2: #f4d588;
+/*Subheader, entry name*/
+.entry-title {
+  display: flex;
+  justify-self: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  text-decoration: underline;
+}
+/*Entry details*/
+.entry-body {
+  display: flex;
+  justify-self: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-style: normal;
+}
+
+/* Left sidebar, Table of Contents, unsure of position*/
+.tob-sidenav {
+  height: auto;
+  width: fit-content;
+  position: fixed;
+  background-color: $primary-color2;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+  border: 2px solid black;
+}
+
+/*L sidebar, links*/
+.tob-sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: medium;
+  color: #d8b5f1;
+  display: block;
+}
+/*R sidebar, entry basics*/
+.infobox-sidebar {
+  height: auto;
+  width: fit-content;
+  position: sticky;
+  background-color: $primary-color2;
+  overflow-x: hidden;
+  top: 0;
+  right: 0;
+  border: 2px solid black;
+}
+/*I would like pictures in the info box.
+I am unsure of how to format that here
+https://www.w3schools.com/howto/howto_css_profile_card.asp*/
