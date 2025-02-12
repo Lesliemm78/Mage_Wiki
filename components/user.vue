@@ -3,7 +3,7 @@
 import { useCreateUser } from '~/lib/hooks/index';
 
 export default {
-    data(vm) {
+    data() {
         return useCreateUser ({
 
         })
