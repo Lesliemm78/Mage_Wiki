@@ -1,5 +1,5 @@
 <script lang="ts">
-import { useFindManyCharacter } from "../../lib/hooks";
+import { useFindManyCharacter } from "~/lib/hooks/index";
 
 export default {
   data() {
