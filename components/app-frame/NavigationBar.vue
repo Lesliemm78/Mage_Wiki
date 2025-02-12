@@ -1,1 +1,3 @@
-<template>NavigationBar</template>
+<template>
+  <span>NavigationBar</span>
+</template>

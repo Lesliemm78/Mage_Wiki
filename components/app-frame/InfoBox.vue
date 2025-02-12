@@ -1,1 +1,3 @@
-<template>InfoBox</template>
+<template>
+  <p>InfoBox</p>
+</template>

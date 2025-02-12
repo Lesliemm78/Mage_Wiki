@@ -1,15 +1,13 @@
 <script setup lang="ts">
-import NavigationBar from "~/components/app-frame/NavigationBar.vue";
-import AppFrameHeader from "~/components/app-frame/Header.vue";
-import InfoBox from "~/components/app-frame/InfoBox.vue";
+// import { AppFrameNavigationBar, AppFrameHeader, AppFrameInfoBox } from '#components'
 </script>
 
 <template>
   <div class="frame">
     <AppFrameHeader />
-    <NavigationBar />
+    <AppFrameNavigationBar />
     <slot></slot>
-    <InfoBox />
+    <AppFrameInfoBox />
   </div>
 </template>
 

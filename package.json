@@ -16,7 +16,7 @@
     "@zenstackhq/server": "^2.3.0",
     "nuxt": "^3.12.3",
     "sass": "^1.77.8",
-    "vue": "latest"
+    "vue": "^2.7.0"
   },
   "devDependencies": {
     "@zenstackhq/tanstack-query": "^2.3.0",
