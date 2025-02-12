@@ -1,6 +1,6 @@
 <script lang="ts">
 
-import { useCreateUser } from '~/lib/hooks';
+import { useCreateUser } from '~/lib/hooks/index';
 
 export default {
     data(vm) {

@@ -7,9 +7,12 @@
 </template>
 
 <script setup lang="ts">
-import { provideHooksContext } from "./lib/hooks";
+import { provideHooksContext } from "./lib/hooks/index";
+
+const config = useRuntimeConfig()
 
 provideHooksContext({
-  endpoint: `${process.env.API_ROOT}/model`,
-});
+  endpoint: `${config.app.baseURL}/model`,
+})
+
 </script>
